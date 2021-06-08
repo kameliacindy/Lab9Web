@@ -22,7 +22,7 @@ Jenis modularisasi di dalam PHP antara lain:
  - Hampir sama dengan `require()`, akan tetapi `include()` digunakan untuk menggabungkan suatu script atau file dengan script pemanggilnya.
  - `include()` dapat digunakan dalam struktur pengulangan, untuk melakukan pemanggilan file-file yang berbeda.
 
-#### 3. . `require_once()`
+#### 3. `require_once()`
 
 Pada dasarnya sama dengan `require()`, akan tetapi di dalam `require_once()` duplikasi fungsi atau duplikasi pemanggilan dapat dihindari, karena secara *default* `require_once()` akan memaksa PHP untuk menggunakan nama fungsi atau pemanggilan yang telah ada.
 
